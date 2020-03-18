@@ -1,0 +1,16 @@
+{
+  "name": "@smartface/transpiler-standalone",
+  "version": "0.1.0-beta.1",
+  "description": "Standalone version of Smartface/transpiler",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@smartface/library-manager": "^6.7.8-beta.3",
+    "@smartface/marketplace-service": "^1.0.19",
+    "@smartface/transpiler": "^6.9.17-beta.8"
+  }
+}

@@ -5,14 +5,14 @@
   "main": "index.js",
   "scripts": {
     "test": "WS=empty-ts-workspace npm run start",
-    "start": "yarn --cwd $PWD/$WS/scripts && env SMF_CIDE_WS_PATH=$PWD/$WS  concurrently sfLibraryManager 'sfMarketplaceService serviceStart' transpiler"
+    "start": "npm --prefix $PWD/$WS/scripts install && SMF_CIDE_WS_PATH=$PWD/$WS node run.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "@smartface/library-manager": "^6.7.8-beta.3",
     "@smartface/marketplace-service": "^1.2.0-beta.3",
-    "@smartface/transpiler": "^6.9.17-beta.8",
+    "@smartface/transpiler": "^6.9.17-beta.9",
     "concurrently": "^5.1.0"
   }
 }

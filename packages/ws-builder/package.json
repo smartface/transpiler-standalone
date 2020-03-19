@@ -1,0 +1,20 @@
+{
+  "name": "@smartface/wsbuilder",
+  "version": "1.0.0-beta.1",
+  "description": "Standalone version of Smartface/transpiler",
+  "main": "index.js",
+  "scripts": {
+  },
+  "bin": {
+    "sfBuilder": "run.js"
+  },
+  "author": "Cenk Cetinkaya<cenk.cetinkaya@smartface.io>",
+  "license": "MIT",
+  "dependencies": {
+    "@smartface/library-manager": "^6.7.8-beta.3",
+    "@smartface/marketplace-service": "^1.2.0-beta.3",
+    "@smartface/transpiler": "^6.9.17-beta.9",
+    "concurrently": "^5.1.0",
+    "minimist": "^1.2.5"
+  }
+}

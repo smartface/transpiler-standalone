@@ -1,18 +1,26 @@
 {
-  "name": "@smartface/transpiler-standalone",
-  "version": "0.1.0-beta.1",
-  "description": "Standalone version of Smartface/transpiler",
+  "name": "parent",
+  "version": "0.0.0",
   "main": "index.js",
+  "private": true,
+  "engineStrict": true,
   "scripts": {
-    "test": "WS=empty-ts-workspace npm run start",
-    "start": "npm --prefix $PWD/$WS/scripts install && SMF_CIDE_WS_PATH=$PWD/$WS node run.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "workspaces": [
+    "packages/*"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/smartface/transpiler-standalone.git"
+  },
+  "author": "Cenk Cetinkaya<cenk.cetinkaya@smartface.io>",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/smartface/transpiler-standalone/issues"
+  },
+  "homepage": "https://github.com/smartface/transpiler-standalone#readme",
   "dependencies": {
-    "@smartface/library-manager": "^6.7.8-beta.3",
-    "@smartface/marketplace-service": "^1.2.0-beta.3",
-    "@smartface/transpiler": "^6.9.17-beta.9",
-    "concurrently": "^5.1.0"
+    "typescript": "^3.8.3"
   }
 }

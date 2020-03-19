@@ -12,6 +12,7 @@ Welcome to Smartface standalone transpiler
 
     1. Clone this repository
     2. Clone workspace in that.
+    3. `npm i`
 
 # Example Usage.
 

@@ -6,12 +6,10 @@ const concurrently = require("concurrently");
 const standalone = args.standalone;
 // process.env.SMF_CIDE_WS_PATH = process.cwd();
 
-console.log("SMF_CIDE_WS_PATH : ", process.env.SMF_CIDE_WS_PATH);
-
 concurrently([
     'sfLibraryManager',
     'sfMarketplaceService serviceStart',
-    'transpiler --standalone'
+    standalone ? 'transpiler --standalone' : 'transpiler'
 ], {
     prefix: 'transpiler',
     killOthers: ['failure', 'success'],

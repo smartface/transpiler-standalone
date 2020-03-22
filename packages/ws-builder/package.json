@@ -3,8 +3,7 @@
   "version": "1.0.0",
   "description": "Standalone version of Smartface/transpiler",
   "main": "index.js",
-  "scripts": {
-  },
+  "scripts": {},
   "bin": {
     "sfBuilder": "run.js"
   },

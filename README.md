@@ -8,12 +8,12 @@
 
 Welcome to Smartface standalone transpiler 
 
-# Installation
+# Development Installation
 
     1. Clone this repository
-    2. Clone workspace in that.
-    3. Run npm i
+    2. Clone workspace in the packages folder.
+    3. Run yarn
 
-# Example Usage.
+# Example usage in the empty-ts-workspace folder.
 
-  ```WS=workspace-name npm start```
+  ```yarn build:sf```

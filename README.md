@@ -14,6 +14,6 @@ Welcome to Smartface standalone transpiler
     2. Clone workspace in the packages folder.
     3. Run yarn
 
-# Example usage in the empty-ts-workspace folder.
+# Example usage in the workspace folder.
 
   ```yarn build:sf```

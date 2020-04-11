@@ -11,7 +11,7 @@ Welcome to Smartface standalone transpiler
 # Development Installation
 
     1. Clone this repository
-    2. Clone workspace in the packages folder.
+    2. Clone workspace into the packages folder.
     3. Run yarn
 
 # Example usage in the workspace folder.

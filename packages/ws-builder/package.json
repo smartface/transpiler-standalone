@@ -1,6 +1,6 @@
 {
   "name": "@smartface/wsbuilder",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Standalone version of Smartface/transpiler",
   "main": "index.js",
   "scripts": {},

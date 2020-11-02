@@ -43,10 +43,10 @@
   resolved "https://registry.yarnpkg.com/@smartface/styler/-/styler-1.3.16.tgz#7c8ddd1e044a28cf01c7bdb0cdf726467f9ce508"
   integrity sha512-WlHAJnAiXgKmT/4qh8Rx3TO9Y4sejDo2Xe/M25s4ClECWNB+RY132KDq0LPi2ZnmmCOASRg6Qbp7QZ24WYQdTA==
 
-"@smartface/transpiler@^6.9.17-beta.9":
-  version "6.9.17-beta.10"
-  resolved "https://registry.yarnpkg.com/@smartface/transpiler/-/transpiler-6.9.17-beta.10.tgz#b69f6dd02208c6aff6c94cf70981000d5854c4e2"
-  integrity sha512-kfyjpoW/pKvUB7HsIr+vnZYhBUy6jRJHMOk4j1yaep14PXElmR8gsj0fmV3EbsMt80Nwq1+L1ezFdiiDMRxqCA==
+"@smartface/transpiler@^7.0.4":
+  version "7.0.4"
+  resolved "https://registry.yarnpkg.com/@smartface/transpiler/-/transpiler-7.0.4.tgz#527dfd32a660e700210dec6eb8bf23550ed4bf8b"
+  integrity sha512-sLEllTUo9DzwMHNHxNUxsRPx/C/ymS5YCiot7LmVlwg/x4a9q8FYtU6pWrxPw2xBVbbi4yHPsaTHZxcq7EAz/A==
   dependencies:
     "@smartface/html-to-text" "^1.0.5"
     "@smartface/styler" "^1.3.8"
@@ -64,6 +64,7 @@
     prettier "^1.15.3"
     recursive-readdir "^2.2.1"
     rmdir "^1.2.0"
+    shortid "^2.2.15"
     text "^0.1.0"
 
 JSV@^4.0.x:
@@ -585,9 +586,9 @@ dot-object@^1.5.4, dot-object@^1.7.0:
     glob "^7.1.4"
 
 dot-prop@^4.1.0, dot-prop@^4.2.0:
-  version "4.2.0"
-  resolved "https://registry.yarnpkg.com/dot-prop/-/dot-prop-4.2.0.tgz#1f19e0c2e1aa0e32797c49799f2837ac6af69c57"
-  integrity sha512-tUMXrxlExSW6U2EXiiKGSBVdYgtV8qlHL+C10TsW4PURY/ic+eaysnSkwB4kA/mBlCyy/IKDJ+Lc3wbWeaXtuQ==
+  version "4.2.1"
+  resolved "https://registry.yarnpkg.com/dot-prop/-/dot-prop-4.2.1.tgz#45884194a71fc2cda71cbb4bceb3a4dd2f433ba4"
+  integrity sha512-l0p4+mIuJIua0mhxGoh4a+iNL9bmeK5DvnSVQa6T0OhrVmaEa1XScX5Etc673FePCJOArq/4Pa2cLGODUWTPOQ==
   dependencies:
     is-obj "^1.0.0"
 
@@ -1594,6 +1595,11 @@ nan@^2.12.1:
   resolved "https://registry.yarnpkg.com/nan/-/nan-2.14.0.tgz#7818f722027b2459a86f0295d434d1fc2336c52c"
   integrity sha512-INOFj37C7k3AfaNTtX8RhsTw7qRy7eLET14cROi9+5HAVbbHuIWUHEauBv5qT4Av2tWasiTY1Jw6puUNqRJXQg==
 
+nanoid@^2.1.0:
+  version "2.1.11"
+  resolved "https://registry.yarnpkg.com/nanoid/-/nanoid-2.1.11.tgz#ec24b8a758d591561531b4176a01e3ab4f0f0280"
+  integrity sha512-s/snB+WGm6uwi0WjsZdaVcuf3KJXlfGl2LcxgwkEwJF0D/BWzVWAZW/XY4bFaiR7s0Jk3FPvlnepg1H1b1UwlA==
+
 nanomatch@^1.2.9:
   version "1.2.13"
   resolved "https://registry.yarnpkg.com/nanomatch/-/nanomatch-1.2.13.tgz#b87a8aa4fc0de8fe6be88895b38983ff265bd119"
@@ -2146,6 +2152,13 @@ setprototypeof@1.1.1:
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/setprototypeof/-/setprototypeof-1.1.1.tgz#7e95acb24aa92f5885e0abef5ba131330d4ae683"
   integrity sha512-JvdAWfbXeIGaZ9cILp38HntZSFSo3mWg6xGcJJsd+d4aRMOqauag1C63dJfDw7OaMYwEbHMOxEZ1lqVRYP2OAw==
+
+shortid@^2.2.15:
+  version "2.2.16"
+  resolved "https://registry.yarnpkg.com/shortid/-/shortid-2.2.16.tgz#b742b8f0cb96406fd391c76bfc18a67a57fe5608"
+  integrity sha512-Ugt+GIZqvGXCIItnsL+lvFJOiN7RYqlGy7QE41O3YC1xbNSeDGIRO7xg2JJXIAj1cAGnOeC1r7/T9pgrtQbv4g==
+  dependencies:
+    nanoid "^2.1.0"
 
 snapdragon-node@^2.0.1:
   version "2.1.1"

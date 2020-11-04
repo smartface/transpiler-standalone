@@ -1,6 +1,6 @@
 {
   "name": "@smartface/wsbuilder",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "description": "Standalone version of Smartface/transpiler",
   "main": "index.js",
   "scripts": {},
@@ -12,7 +12,7 @@
   "dependencies": {
     "@smartface/library-manager": "^6.7.8-beta.3",
     "@smartface/marketplace-service": "^1.2.0-beta.3",
-    "@smartface/transpiler": "^7.0.4",
+    "@smartface/transpiler": "^7.0.5",
     "concurrently": "^5.1.0",
     "minimist": "^1.2.5"
   }

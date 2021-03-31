@@ -38,20 +38,15 @@
     node-ipc "^9.1.1"
     recursive-readdir "^2.2.2"
 
-"@smartface/smartface.ui-editor@6.15.1":
-  version "6.15.1"
-  resolved "https://registry.yarnpkg.com/@smartface/smartface.ui-editor/-/smartface.ui-editor-6.15.1.tgz#c0326d386cef1d040f7d74f975f96637d4d34e28"
-  integrity sha512-EeQt6xm3FjWJDAsfL2yHCEFKi2pPqQZuaIKlQrUgDOMPozbBspoO2acoHExy/anJzIP5DlpoNPsKTmeKiNldpQ==
-
 "@smartface/styler@^1.3.8":
   version "1.3.16"
   resolved "https://registry.yarnpkg.com/@smartface/styler/-/styler-1.3.16.tgz#7c8ddd1e044a28cf01c7bdb0cdf726467f9ce508"
   integrity sha512-WlHAJnAiXgKmT/4qh8Rx3TO9Y4sejDo2Xe/M25s4ClECWNB+RY132KDq0LPi2ZnmmCOASRg6Qbp7QZ24WYQdTA==
 
-"@smartface/transpiler@^6.10.0-beta.3":
-  version "6.10.0-beta.4"
-  resolved "https://registry.yarnpkg.com/@smartface/transpiler/-/transpiler-6.10.0-beta.4.tgz#4bcbcfe7862022a5cac1cae094ba5761ab2aa1f6"
-  integrity sha512-4hcMNLg7JXV9MP1EeMH2pdRrpLHYYoctNdZpMigo3P5FmaQjii1sW0VFHP/TpSUam9O5jjBKE1YWQIwKV/SOTA==
+"@smartface/transpiler@^7.1.2":
+  version "7.1.3"
+  resolved "https://registry.yarnpkg.com/@smartface/transpiler/-/transpiler-7.1.3.tgz#e96bfd56b20a279d8f1aee5d9b3b10146ac62cb8"
+  integrity sha512-oaYhfjxF9/8srcIMXMOmK+cbzf3MJayEXPOGKTQzIM4eKZ6GAUgeRNMIPDBU+15mbwc7Q4fcyhy5+xdUkbqeig==
   dependencies:
     "@smartface/html-to-text" "^1.0.5"
     "@smartface/styler" "^1.3.8"
@@ -71,41 +66,6 @@
     rmdir "^1.2.0"
     shortid "^2.2.15"
     text "^0.1.0"
-
-"@smartface/transpiler@^7.0.4":
-  version "7.0.4"
-  resolved "https://registry.yarnpkg.com/@smartface/transpiler/-/transpiler-7.0.4.tgz#527dfd32a660e700210dec6eb8bf23550ed4bf8b"
-  integrity sha512-sLEllTUo9DzwMHNHxNUxsRPx/C/ymS5YCiot7LmVlwg/x4a9q8FYtU6pWrxPw2xBVbbi4yHPsaTHZxcq7EAz/A==
-  dependencies:
-    "@smartface/html-to-text" "^1.0.5"
-    "@smartface/styler" "^1.3.8"
-    async "^2.5.0"
-    bytes "^2.5.0"
-    chokidar "^1.7.0"
-    dot-object "^1.5.4"
-    dot-prop "^4.1.0"
-    express "^4.14.0"
-    fs-extra "^1.0.0"
-    handlebars "^4.0.6"
-    html-parse-stringify "^1.0.2"
-    jsonlint "^1.6.2"
-    minimist "^1.2.0"
-    prettier "^1.15.3"
-    recursive-readdir "^2.2.1"
-    rmdir "^1.2.0"
-    shortid "^2.2.15"
-    text "^0.1.0"
-
-"@smartface/wsbuilder@^1.0.0":
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/@smartface/wsbuilder/-/wsbuilder-1.0.1.tgz#c74897c1fee9b11c0a25e8f9d00bae63c4530a87"
-  integrity sha512-fMPO40VwaLWelNn117DwSUM8zidM+QOqU17nU24YccEvDQ8IJpdAwYlOXKqb5reQrcFmRBSepI9eNWVmuay7UQ==
-  dependencies:
-    "@smartface/library-manager" "^6.7.8-beta.3"
-    "@smartface/marketplace-service" "^1.2.0-beta.3"
-    "@smartface/transpiler" "^6.10.0-beta.3"
-    concurrently "^5.1.0"
-    minimist "^1.2.5"
 
 JSV@^4.0.x:
   version "4.0.2"
@@ -2447,11 +2407,6 @@ typedarray@^0.0.6:
   resolved "https://registry.yarnpkg.com/typedarray/-/typedarray-0.0.6.tgz#867ac74e3864187b1d3d47d996a78ec5c8830777"
   integrity sha1-hnrHTjhkGHsdPUfZlqeOxciDB3c=
 
-typescript@^3.7.5:
-  version "3.9.7"
-  resolved "https://registry.yarnpkg.com/typescript/-/typescript-3.9.7.tgz#98d600a5ebdc38f40cb277522f12dc800e9e25fa"
-  integrity sha512-BLbiRkiBzAwsjut4x/dsibSTB6yWpwT5qWmC2OfuCg3GgVQCSgMs4vEctYPhsaGtd0AeuuHMkjZ2h2WG8MSzRw==
-
 typescript@^3.8.3:
   version "3.8.3"
   resolved "https://registry.yarnpkg.com/typescript/-/typescript-3.8.3.tgz#409eb8544ea0335711205869ec458ab109ee1061"
@@ -2594,9 +2549,9 @@ ws@^7.2.0:
   integrity sha512-HTDl9G9hbkNDk98naoR/cHDws7+EyYMOdL1BmjsZXRUjf7d+MficC4B7HLUPlSiho0vg+CWKrGIt/VJBd1xunQ==
 
 y18n@^4.0.0:
-  version "4.0.0"
-  resolved "https://registry.yarnpkg.com/y18n/-/y18n-4.0.0.tgz#95ef94f85ecc81d007c264e190a120f0a3c8566b"
-  integrity sha512-r9S/ZyXu/Xu9q1tYlpsLIsa3EeLXXk0VwlxqTcFRfg9EhMW+17kbt9G0NrgCmhGb5vT2hyhJZLfDGx+7+5Uj/w==
+  version "4.0.1"
+  resolved "https://registry.yarnpkg.com/y18n/-/y18n-4.0.1.tgz#8db2b83c31c5d75099bb890b23f3094891e247d4"
+  integrity sha512-wNcy4NvjMYL8gogWWYAO7ZFWFfHcbdbE57tZO8e4cbpj8tfUcwrwqSl3ad8HxpYWCdXcJUCeKKZS62Av1affwQ==
 
 yargs-parser@^13.1.2:
   version "13.1.2"

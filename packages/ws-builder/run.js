@@ -7,8 +7,6 @@ const standalone = args.standalone;
 // process.env.SMF_CIDE_WS_PATH = process.cwd();
 
 concurrently([
-    'sfLibraryManager',
-    'sfMarketplaceService serviceStart',
     standalone ? 'transpiler --standalone' : 'transpiler'
 ], {
     prefix: 'transpiler',

@@ -13,6 +13,6 @@
     "@smartface/library-service": "^1.0.1",
     "@smartface/transpiler": "^8.0.0-rc.5",
     "concurrently": "^5.1.0",
-    "minimist": "^1.2.5"
+    "minimist": "^1.2.6"
   }
 }
